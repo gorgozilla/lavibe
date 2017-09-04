@@ -1,0 +1,78 @@
+.wolf-accordion {
+
+
+  width: 100%;
+  border: 1px solid #ccc;
+  font-size: 1em!important;
+
+
+	.ui-icon{
+		display: none;
+	}
+}
+
+.wolf-accordion .ui-accordion-header {
+	-webkit-border-radius: 0!important;
+	-moz-border-radius: 0!important;
+	border-radius: 0!important;
+	border: 0!important;
+	padding: 0;
+	height: 35px;
+	line-height: 35px;
+	cursor: pointer;
+	margin: 0;
+	background: #fff;
+	font-size: 98%;
+	@include box-shadow(0 0 0 1px #d9d9d9);
+	padding-left: 2%;
+	color: #333333 !important;
+	
+	&:focus, &:active {
+		outline: 0;
+	}
+
+}
+
+.wolf-accordion .ui-accordion-header:hover {
+  background: #fafafa;
+}
+
+.wolf-accordion .ui-accordion-header a, .wolf-accordion .ui-accordion-header a:hover {
+  text-decoration: none!important;
+  color: #333!important;
+}
+
+.wolf-accordion .ui-accordion-content {
+  text-shadow: none;
+  padding: 0.8em;
+  margin: 0;
+  background: #f2f2f2;
+  color: #333!important;
+  @include box-shadow(inset 0px 0px 15px 0px #fafafa);
+  line-height: 1.7;
+}
+
+.wolf-accordion.wolf-accordion-skin-dark{
+	border: 1px solid #000;
+	
+	.ui-accordion-header {
+		background: #333;
+		@include box-shadow(0 0 0 1px #0d0d0d);
+		color: #fff!important;
+		
+		&:hover{
+			background: darken(#333, 3%);
+		}
+
+		a{
+			color: #fff!important;
+		}
+	}
+
+	.ui-accordion-content{
+		background: #333;
+  		color: #fff!important;
+  		@include box-shadow(inset 0px 0px 15px 0px #0d0d0d);
+	}
+
+}

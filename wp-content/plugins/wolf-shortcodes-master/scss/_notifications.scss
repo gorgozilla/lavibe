@@ -1,0 +1,74 @@
+.wolf-notif {
+	width: 100%;
+	padding:0;
+	position: relative;
+	text-shadow:none!important;
+	line-height: 1.5;
+	font-size: 14px;
+	//font-family: Helvetica, Arial, sans-serif;
+	@include box-shadow(none);
+	margin: 0.5em 0 1em;
+
+	div{
+		padding:1.7em 1.2em;
+	}
+
+	span{
+		cursor: pointer;
+	}
+
+	a{
+		text-decoration: underline!important;
+		font-weight: 700;
+		opacity: 1!important;
+		border:none!important;
+	}
+
+	.wolf-notif-close{
+		position: absolute;
+		top: 0px;
+		right: 3px;
+		width: 12px;
+		height: 15px;
+		display: inline-block;
+		font-size: 100%;
+		text-decoration: none!important;
+		font-weight: 700!important;
+		line-height: 1.5;
+		font-size: 16px;
+		font-family: Helvetica, Arial, sans-serif;
+	}
+}
+
+@mixin alert($color : #EDFDD3){
+	color : darken($color, 80%);
+	border: 1px solid darken($color, 45%)!important;
+	background-color: $color;
+	
+
+	a, a:hover, strong, span{
+		color : darken($color, 80%)!important;
+	}
+}
+
+/* Success */ 
+.wolf-notif.success {
+	@include alert();
+}
+
+/* Info */
+.wolf-notif.info {
+	@include alert(#BEEFFF);
+}
+
+/* Tip */ 
+.wolf-notif.tip {
+	@include alert(#FFF7D6);
+}
+
+/* Error */
+.wolf-notif.error {
+	@include alert(#FFD3D3);
+}
+
+

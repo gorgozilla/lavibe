@@ -1,0 +1,47 @@
+$cols : 12;
+$width: 100%;
+$gutter : 1.618 * 1%;
+$wrapper : $width + 2 * $gutter;
+
+@for $i from 1 through $cols {
+	.wolf_col_#{$i}{
+		@extend .wolf_col;
+		width: ( $i * $wrapper / $cols - 2 * $gutter  ) ;
+	}
+}
+
+.wolf_col{
+	float: left;
+	position: relative;
+	margin-left: $gutter;
+	margin-right: $gutter;
+
+	img, iframe, object, embed{
+		max-width: 100%!important;
+	}
+}
+
+.wolf_col_alpha, .wolf_col_first {
+	margin-left: 0!important;
+}
+
+.wolf_col_omega, .wolf_col_last {
+	margin-right: 0!important;
+}
+
+.wolf_col_12 {
+	float: none;
+	width: 100%;
+	margin-right: 0!important;
+	margin-left: 0!important;
+}
+
+@media screen and (max-width: 799px) {
+	.wolf_col_1, .wolf_col_2, .wolf_col_3, .wolf_col_4, .wolf_col_5, .wolf_col_6, .wolf_col_7, .wolf_col_8, .wolf_col_9, .wolf_col_10, .wolf_col_11 {
+		float: none;
+		width: 100%;
+		margin-right: 0!important;
+		margin-left: 0!important;
+		margin-bottom: 1.5em;
+	}
+}

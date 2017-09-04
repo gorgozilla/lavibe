@@ -1,0 +1,238 @@
+@mixin button($color : #333) {
+	
+	border:1px solid darken($color, 10%);
+	background: $color;
+	@include background-image(linear-gradient($color, darken($color, 10%)));
+	@include text-shadow(0px 0px 5px darken($color, 10%));
+
+	&:hover, &:focus {
+		border:1px solid darken($color, 10%);
+		color : #fff!important;
+		background: lighten($color, 5%);
+	}
+
+	&:active{
+		color : #fff!important;
+		background: $color;
+		top:1px;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		-o-box-shadow: none;
+		box-shadow: none;
+	}
+}
+
+@mixin flat( $color : #333 )  {
+	@include box-shadow( 0 4px 0 darken( $color,15% ) );
+	border:none;
+	@include border-radius(4px);
+	background-image: none!important;
+	padding:0.8em 1.5em 0.8em;
+
+	&:hover, &:focus {
+		background: darken($color, 5%);
+	}
+
+	&:active{
+		@include box-shadow( 0 3px 0 darken( $color,15% ) );
+	}
+}
+
+a.wolf-button {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding:0.8em 1.2em 0.8em;
+	margin: 0 0.1em 0.5em 0.2em;
+	opacity: 1!important;
+	@include transition(background-color 0.1s);
+	text-decoration: none!important;
+	display: inline-block;
+	font-weight: 700;
+	text-align: center;
+	line-height: 1;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-style:normal!important;
+	vertical-align: middle;
+	position: relative;
+	letter-spacing:0;
+	color : #fff!important;
+	@include box-shadow( 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.4) );
+	outline:none;
+
+	span.wolf-button-tagline{
+		display: block;
+		margin: 0;
+		margin-top: 8px;
+		padding: 0;
+		font-size:11px;
+		font-weight: 400;
+	}
+}
+
+a.wolf-button.small {
+	font-size: 14px;
+}
+
+a.wolf-button.medium {
+	span.wolf-button-tagline{
+		font-size: 12px;
+	}
+}
+
+a.wolf-button.big {
+	font-size: 24px;
+	span.wolf-button-tagline{
+		font-size: 13px;
+	}
+}
+
+a.wolf-button.square {
+
+}
+
+a.wolf-button.round {
+	@include border-radius(35px);
+}
+
+
+/* Black : #333; */
+a.wolf-button.black{
+	@include button();
+
+	&.flat{
+		@include flat();
+	}
+}
+
+/* White : #fff; */
+a.wolf-button.white{
+	@include button(darken(#fff, 10%));
+	color:#333!important;
+	text-shadow: none!important;
+	background: #fff;
+
+	&:hover, &:focus {
+		color:#333!important;
+		background: darken(#fff, 5%);
+	}
+
+	&:active{
+		color:#333!important;
+	}
+
+	&.flat{
+		@include flat( darken(#fff, 10%) );
+
+		&:hover, &:focus {
+			background: lighten(darken(#fff, 10%), 5%);
+		}
+	}
+}
+
+/* Yellow : #FFBE3F; */
+a.wolf-button.yellow{
+	@include button(lighten(#FFBE3F, 5%));
+
+	&.flat{
+		@include flat(lighten(#FFBE3F, 5%));
+	}
+}
+
+/* Green : #83C140; */
+a.wolf-button.green{
+	@include button(#83C140);
+
+	&.flat{
+		@include flat(#83C140);
+	}
+}
+
+/* Green 2 : #4BBD93; */
+a.wolf-button.green-2{
+	@include button(#4BBD93);
+
+	&.flat{
+		@include flat(#4BBD93);
+	}
+}
+
+/* Purple : #CF8EC7; */
+a.wolf-button.purple{
+	@include button(#CF8EC7);
+
+	&.flat{
+		@include flat(#CF8EC7);
+	}
+}
+
+/* Red : #DD605A; */
+a.wolf-button.red{
+	@include button(#DD605A);
+
+	&.flat{
+		@include flat(#DD605A);
+	}
+
+}
+
+/* Blue : #0D75B4; */
+a.wolf-button.blue{
+	@include button(#0D75B4);
+
+	&.flat{
+		@include flat(#0D75B4);
+	}
+}
+
+/* Download Arrow */
+.wolf-download-arrow,
+.wolf-download-pdf{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-top: -3px;
+	margin-left: 8px;
+	margin-right: -5px;
+	vertical-align: middle;
+	@include opacity(0.8);
+}
+
+.wolf-download-arrow{
+	background: url('../images/cloud-download.png') center center no-repeat;
+	-webkit-background-size: 16px 16px;
+	background-size: 16px 16px;
+}
+
+.wolf-download-pdf{
+	background: url('../images/file-pdf.png') center center no-repeat;
+	-webkit-background-size: 16px 16px;
+	background-size: 16px 16px;
+	position:relative;
+	top:-1px
+}
+
+a.wolf-button.big span.wolf-download-arrow,
+a.wolf-button.big span.wolf-download-pdf {
+	width: 18px;
+	height: 18px;
+	background-size: 18px 18px;
+}
+
+@media screen and (max-width: 767px) {
+	a.wolf-button{
+
+		&.small{
+			font-size: 12px;
+		}
+
+		&.medium{
+			font-size: 14px;
+		}
+
+		&.big{
+			font-size: 18px;
+		}
+	}
+}

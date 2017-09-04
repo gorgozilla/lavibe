@@ -1,0 +1,322 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wolf Shortcodes\n"
+"POT-Creation-Date: 2013-12-30 19:30+0100\n"
+"PO-Revision-Date: 2013-12-30 19:30+0100\n"
+"Last-Translator: \n"
+"Language-Team: wpwolf.com <support@wpwolf.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ws-shortcodes.php:336 ../ws-shortcodes.php:343 ../ws-shortcodes.php:348
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../ws-shortcodes.php:358
+msgid "Read more posts"
+msgstr ""
+
+#: ../tinymce/popup/accordion.php:2
+msgid "You need a minimum of one panel"
+msgstr ""
+
+#: ../tinymce/popup/accordion.php:58
+msgid "Insert an accordion"
+msgstr ""
+
+#: ../tinymce/popup/accordion.php:62 ../tinymce/popup/tabs.php:66
+msgid "Skin"
+msgstr ""
+
+#: ../tinymce/popup/accordion.php:64 ../tinymce/popup/tabs.php:68
+msgid "Light"
+msgstr ""
+
+#: ../tinymce/popup/accordion.php:65 ../tinymce/popup/tabs.php:69
+msgid "Dark"
+msgstr ""
+
+#: ../tinymce/popup/accordion.php:72
+msgid "Panel title"
+msgstr ""
+
+#: ../tinymce/popup/accordion.php:77
+msgid "Panel content"
+msgstr ""
+
+#: ../tinymce/popup/accordion.php:80 ../tinymce/popup/tabs.php:86
+#: ../tinymce/popup/testimonials.php:73 ../tinymce/popup/toggles.php:80
+msgid "Remove"
+msgstr ""
+
+#: ../tinymce/popup/accordion.php:87
+msgid "Add another panel"
+msgstr ""
+
+#: ../tinymce/popup/accordion.php:90
+msgid "Insert Accordion"
+msgstr ""
+
+#: ../tinymce/popup/button.php:43
+msgid "Insert a Button"
+msgstr ""
+
+#: ../tinymce/popup/button.php:49
+msgid "Text"
+msgstr ""
+
+#: ../tinymce/popup/button.php:50
+msgid "Button"
+msgstr ""
+
+#: ../tinymce/popup/button.php:54
+msgid "Tagline (optional)"
+msgstr ""
+
+#: ../tinymce/popup/button.php:59
+msgid "Link"
+msgstr ""
+
+#: ../tinymce/popup/button.php:66 ../tinymce/popup/highlight.php:32
+msgid "Color"
+msgstr ""
+
+#: ../tinymce/popup/button.php:69 ../tinymce/popup/highlight.php:39
+msgid "white"
+msgstr ""
+
+#: ../tinymce/popup/button.php:70 ../tinymce/popup/highlight.php:35
+msgid "yellow"
+msgstr ""
+
+#: ../tinymce/popup/button.php:71 ../tinymce/popup/highlight.php:38
+msgid "black"
+msgstr ""
+
+#: ../tinymce/popup/button.php:72 ../tinymce/popup/highlight.php:37
+msgid "red"
+msgstr ""
+
+#: ../tinymce/popup/button.php:73 ../tinymce/popup/highlight.php:36
+msgid "green"
+msgstr ""
+
+#: ../tinymce/popup/button.php:74
+msgid "purple"
+msgstr ""
+
+#: ../tinymce/popup/button.php:75
+msgid "blue"
+msgstr ""
+
+#: ../tinymce/popup/button.php:81 ../tinymce/popup/notifications.php:32
+msgid "Type"
+msgstr ""
+
+#: ../tinymce/popup/button.php:84
+msgid "Flat"
+msgstr ""
+
+#: ../tinymce/popup/button.php:85
+msgid "Square"
+msgstr ""
+
+#: ../tinymce/popup/button.php:86
+msgid "Round"
+msgstr ""
+
+#: ../tinymce/popup/button.php:92
+msgid "Size"
+msgstr ""
+
+#: ../tinymce/popup/button.php:95
+msgid "Small"
+msgstr ""
+
+#: ../tinymce/popup/button.php:96
+msgid "Medium"
+msgstr ""
+
+#: ../tinymce/popup/button.php:97
+msgid "Big"
+msgstr ""
+
+#: ../tinymce/popup/button.php:103
+msgid "Download button"
+msgstr ""
+
+#: ../tinymce/popup/button.php:114
+msgid "Download button PDF"
+msgstr ""
+
+#: ../tinymce/popup/button.php:125
+msgid "Open link in a new tab"
+msgstr ""
+
+#: ../tinymce/popup/button.php:137 ../tinymce/popup/googlemap.php:62
+#: ../tinymce/popup/last-posts.php:51 ../tinymce/popup/spacer.php:39
+msgid "Insert"
+msgstr ""
+
+#: ../tinymce/popup/columns.php:40
+msgid "Insert Columns"
+msgstr ""
+
+#: ../tinymce/popup/columns.php:46
+msgid "Column"
+msgstr ""
+
+#: ../tinymce/popup/columns.php:83 ../tinymce/popup/notifications.php:44
+msgid "Wrap selected paragraph"
+msgstr ""
+
+#: ../tinymce/popup/columns.php:85
+msgid ""
+"A row consists of a series of columns (col_X) that add up to 12. <br>\n"
+"\t\tSo, a row of 3+3+3+3 or 4+4+4 or 2+3+5+2, anything that adds to 12 will "
+"be the full width of the page."
+msgstr ""
+
+#: ../tinymce/popup/columns.php:87
+msgid ""
+"Check the \"First\" checkbox if your column is the first of the row<br>\n"
+"\t\tand check the \"Last\" checkbox if your column is the last of the row."
+msgstr ""
+
+#: ../tinymce/popup/googlemap.php:36
+msgid "Insert a map"
+msgstr ""
+
+#: ../tinymce/popup/googlemap.php:42
+msgid "Width"
+msgstr ""
+
+#: ../tinymce/popup/googlemap.php:44
+msgid "Leave empty for full width"
+msgstr ""
+
+#: ../tinymce/popup/googlemap.php:49
+msgid "Height"
+msgstr ""
+
+#: ../tinymce/popup/googlemap.php:54
+msgid "Src"
+msgstr ""
+
+#: ../tinymce/popup/googlemap.php:56
+msgid "Where to find it?"
+msgstr ""
+
+#: ../tinymce/popup/highlight.php:26
+msgid "Highlight Text"
+msgstr ""
+
+#: ../tinymce/popup/highlight.php:45
+msgid "Wrap selected words"
+msgstr ""
+
+#: ../tinymce/popup/last-posts.php:28
+msgid "Last Posts"
+msgstr ""
+
+#: ../tinymce/popup/last-posts.php:31
+msgid "All fields are optional"
+msgstr ""
+
+#: ../tinymce/popup/last-posts.php:35
+msgid "Count (default is posts per page)"
+msgstr ""
+
+#: ../tinymce/popup/last-posts.php:40
+msgid "Category slug(s) e.g: my-cateogry (seperate with commas)"
+msgstr ""
+
+#: ../tinymce/popup/last-posts.php:45
+msgid "Tag slug(s) e.g: my-tag (seperate with commas)"
+msgstr ""
+
+#: ../tinymce/popup/notifications.php:26
+msgid "Notification Message"
+msgstr ""
+
+#: ../tinymce/popup/spacer.php:26
+msgid "Vertical Space"
+msgstr ""
+
+#: ../tinymce/popup/spacer.php:32
+msgid "Height (in px)"
+msgstr ""
+
+#: ../tinymce/popup/tabs.php:2
+msgid "You need a minimum of one tab"
+msgstr ""
+
+#: ../tinymce/popup/tabs.php:61 ../tinymce/popup/tabs.php:96
+msgid "Insert Tabs"
+msgstr ""
+
+#: ../tinymce/popup/tabs.php:76
+msgid "Tab title"
+msgstr ""
+
+#: ../tinymce/popup/tabs.php:83
+msgid "Tab content"
+msgstr ""
+
+#: ../tinymce/popup/tabs.php:93
+msgid "Add another tab"
+msgstr ""
+
+#: ../tinymce/popup/testimonials.php:2
+msgid "You need a minimum of one slide"
+msgstr ""
+
+#: ../tinymce/popup/testimonials.php:59 ../tinymce/popup/testimonials.php:83
+msgid "Insert testimonials"
+msgstr ""
+
+#: ../tinymce/popup/testimonials.php:66
+msgid "Slide content"
+msgstr ""
+
+#: ../tinymce/popup/testimonials.php:70
+msgid "Quote signature"
+msgstr ""
+
+#: ../tinymce/popup/testimonials.php:80
+msgid "Add another slide"
+msgstr ""
+
+#: ../tinymce/popup/toggles.php:2
+msgid "You need a minimum of one toggle"
+msgstr ""
+
+#: ../tinymce/popup/toggles.php:63
+msgid "Insert toggles"
+msgstr ""
+
+#: ../tinymce/popup/toggles.php:68
+msgid "Open by default ?"
+msgstr ""
+
+#: ../tinymce/popup/toggles.php:72
+msgid "Toggle title"
+msgstr ""
+
+#: ../tinymce/popup/toggles.php:77
+msgid "Toggle content"
+msgstr ""
+
+#: ../tinymce/popup/toggles.php:87
+msgid "Add another toggle"
+msgstr ""
+
+#: ../tinymce/popup/toggles.php:90
+msgid "Insert Toggles"
+msgstr ""

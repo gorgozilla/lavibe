@@ -1,0 +1,57 @@
+.wolf-toggle{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	
+	h5.wolf-toggle-title{
+		@include user-select(none);
+		line-height: 24px!important;
+		font-size: 18px!important;
+		margin: 0;
+		padding: 0;
+		display: block;
+		height: auto;
+		min-height: 32px;
+		margin-bottom: 1em;
+		cursor: pointer;
+		zoom: 1;
+		&:before, &:after { content: ""; display: table; }
+		&:after { clear: both; }
+		
+		.wolf-toggle-button{
+			display:inline-block;
+			float: left;
+			width: 25px;
+			height: 25px;
+			background: #333;
+			margin-right: 1em;
+			font-family: Helvetica, Arial, sans-serif;
+			font-weight: 400;
+			font-style: normal;
+			color: #FFF;
+			
+			span.wolf-toggle-sign{
+				display: block;
+				width: 24px;
+				height: 24px;
+				
+				background: url('../images/toggle_plus.png') center center no-repeat;
+
+				&.plus{
+					background: url('../images/toggle_plus.png') center center no-repeat;
+				}
+
+				&.minus{
+					background: url('../images/toggle_minus.png') center center no-repeat;
+				}
+			}
+		}
+	}
+	
+	.wolf-toggle-content{
+		display: none;
+		margin-bottom: 2em;
+		font-size: 14px;
+	}
+
+}

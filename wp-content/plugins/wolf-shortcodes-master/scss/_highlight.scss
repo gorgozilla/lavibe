@@ -1,0 +1,42 @@
+.wolf-highlight{
+	text-shadow: none;
+	display: inline-block;
+	padding: 0 5px;
+	line-height: 1.3em;
+	color: #fff!important;
+}
+
+@mixin highlight($color : #ff0 ){
+	background-color: $color!important;
+}
+
+/* White : #fff */
+span.wolf-highlight-white {
+	@extend .wolf-highlight;
+ 	@include highlight(#fff);
+}
+
+/* Black : #000 */
+span.wolf-highlight-black {
+	@extend .wolf-highlight;
+ 	@include highlight(#000);
+}
+
+/* Yellow : #ff0 */
+span.wolf-highlight-yellow {
+	@extend .wolf-highlight;
+ 	@include highlight();
+	color: #333333!important;
+}
+
+/* Red : #D45554; */
+span.wolf-highlight-red {
+	@extend .wolf-highlight;
+ 	@include highlight(#D45554);
+}
+
+/* Green : #327627; */
+span.wolf-highlight-green {
+	@extend .wolf-highlight;
+ 	@include highlight(#327627);
+}

@@ -1,0 +1,2081 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flycase\n"
+"POT-Creation-Date: 2014-05-10 02:08+0100\n"
+"PO-Revision-Date: 2014-05-10 02:08+0100\n"
+"Last-Translator: WolfThemes <help@wolfthemes.com>\n"
+"Language-Team: wolfthemes.com <support@wolfthemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:15 ../pack/build/speaker/404.php:15
+msgid "404 Page not found !"
+msgstr ""
+
+#: ../404.php:16 ../pack/build/speaker/404.php:16
+msgid "You've tried to reach a page that doesn't exist or has moved."
+msgstr ""
+
+#: ../404.php:17 ../pack/build/speaker/404.php:17
+msgid "back home"
+msgstr ""
+
+#: ../comments.php:39 ../pack/build/speaker/comments.php:39
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:40 ../pack/build/speaker/comments.php:40
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:45 ../pack/build/speaker/comments.php:45
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:56 ../pack/build/speaker/comments.php:56
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:57 ../pack/build/speaker/comments.php:57
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out &raquo;</a>"
+msgstr ""
+
+#: ../comments.php:60 ../pack/build/speaker/comments.php:60
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:61 ../pack/build/speaker/comments.php:61
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:62 ../pack/build/speaker/comments.php:62
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../comments.php:63 ../pack/build/speaker/comments.php:63
+msgid "Submit Comment"
+msgstr ""
+
+#: ../content-release.php:21 ../content-release.php:26
+#: ../pack/build/speaker/content-release.php:21
+#: ../pack/build/speaker/content-release.php:26
+#: ../pack/build/speaker/single-release.php:25
+#: ../pack/build/speaker/single-release.php:29 ../single-release.php:25
+#: ../single-release.php:29
+msgid "Band "
+msgstr ""
+
+#: ../content-release.php:34 ../content-release.php:39
+#: ../pack/build/speaker/content-release.php:34
+#: ../pack/build/speaker/content-release.php:39
+#: ../pack/build/speaker/single-release.php:37
+#: ../pack/build/speaker/single-release.php:42 ../single-release.php:37
+#: ../single-release.php:42
+msgid "Label "
+msgstr ""
+
+#: ../content-release.php:60 ../content-release.php:65
+#: ../includes/medias.php:392 ../includes/medias.php:404
+#: ../includes/medias.php:436 ../includes/template-tags.php:97
+#: ../pack/build/speaker/content-release.php:60
+#: ../pack/build/speaker/content-release.php:65
+#: ../pack/build/speaker/includes/medias.php:392
+#: ../pack/build/speaker/includes/medias.php:404
+#: ../pack/build/speaker/includes/medias.php:436
+#: ../pack/build/speaker/includes/template-tags.php:97
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../image.php:19 ../pack/build/speaker/image.php:19
+#, php-format
+msgid ""
+"<span class=\"attachment-meta\">Published on <time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" "
+"rel=\"gallery\">%5$s</a></span>"
+msgstr ""
+
+#: ../image.php:40 ../image.php:115 ../includes/functions.php:200
+#: ../includes/functions.php:221 ../pack/build/speaker/image.php:40
+#: ../pack/build/speaker/image.php:115
+#: ../pack/build/speaker/includes/functions.php:200
+#: ../pack/build/speaker/includes/functions.php:221
+#: ../pack/build/speaker/page-templates/post-archives.php:69
+#: ../pack/build/speaker/partials/content-page.php:25
+#: ../pack/build/speaker/partials/content-post.php:36
+#: ../pack/build/speaker/partials/loop-post-front.php:73
+#: ../pack/build/speaker/partials/loop-post-front.php:109
+#: ../pack/build/speaker/single-release.php:122
+#: ../pack/build/speaker/single.php:32 ../page-templates/post-archives.php:69
+#: ../partials/content-page.php:25 ../partials/content-post.php:36
+#: ../partials/loop-post-front.php:73 ../partials/loop-post-front.php:109
+#: ../single-release.php:122 ../single.php:32
+msgid "Edit"
+msgstr ""
+
+#: ../image.php:44 ../pack/build/speaker/image.php:44
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../image.php:45 ../pack/build/speaker/image.php:45
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../image.php:99 ../pack/build/speaker/image.php:99
+#: ../pack/build/speaker/partials/content-page.php:21
+#: ../pack/build/speaker/partials/loop-post-front.php:94
+#: ../pack/build/speaker/single.php:38 ../partials/content-page.php:21
+#: ../partials/loop-post-front.php:94 ../single.php:38
+msgid "Pages:"
+msgstr ""
+
+#: ../image.php:106 ../pack/build/speaker/image.php:106
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: ../image.php:108 ../pack/build/speaker/image.php:108
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+
+#: ../image.php:110 ../pack/build/speaker/image.php:110
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: ../image.php:112 ../pack/build/speaker/image.php:112
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: ../includes/admin/default-customizer-options.php:185
+#: ../pack/build/speaker/includes/admin/default-customizer-options.php:185
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-customizer.php:657
+#: ../wp-wolf-framework/classes/class-customizer.php:657
+msgid "Are you sure to want to reset all styles to default ?"
+msgstr ""
+
+#: ../includes/admin/metabox.php:27
+#: ../pack/build/speaker/includes/admin/metabox.php:27
+msgid "Section Settings"
+msgstr ""
+
+#: ../includes/admin/metabox.php:33
+#: ../pack/build/speaker/includes/admin/metabox.php:33
+msgid "Small Width"
+msgstr ""
+
+#: ../includes/admin/metabox.php:35
+#: ../pack/build/speaker/includes/admin/metabox.php:35
+msgid "740px width max"
+msgstr ""
+
+#: ../includes/admin/metabox.php:40
+#: ../pack/build/speaker/includes/admin/metabox.php:40
+msgid "Full Width"
+msgstr ""
+
+#: ../includes/admin/metabox.php:42
+#: ../pack/build/speaker/includes/admin/metabox.php:42
+msgid "92% width"
+msgstr ""
+
+#: ../includes/admin/metabox.php:47 ../includes/admin/options.php:97
+#: ../pack/build/speaker/includes/admin/metabox.php:47
+#: ../pack/build/speaker/includes/admin/options.php:97
+msgid "Full Window"
+msgstr ""
+
+#: ../includes/admin/metabox.php:48
+#: ../pack/build/speaker/includes/admin/metabox.php:48
+msgid "Will take the full screen width and height"
+msgstr ""
+
+#: ../includes/admin/metabox.php:54
+#: ../pack/build/speaker/includes/admin/metabox.php:54
+msgid "Hide from menu"
+msgstr ""
+
+#: ../includes/admin/metabox.php:55
+#: ../pack/build/speaker/includes/admin/metabox.php:55
+msgid "Won't be displayed in the menu"
+msgstr ""
+
+#: ../includes/admin/metabox.php:61
+#: ../pack/build/speaker/includes/admin/metabox.php:61
+msgid "Mosaic Gallery"
+msgstr ""
+
+#: ../includes/admin/metabox.php:62
+#: ../pack/build/speaker/includes/admin/metabox.php:62
+msgid ""
+"If a gallery is inserted in your post, it will be displayed as a full width "
+"mosaic gallery"
+msgstr ""
+
+#: ../includes/admin/metabox.php:68
+#: ../pack/build/speaker/includes/admin/metabox.php:68
+msgid "Section Font Color"
+msgstr ""
+
+#: ../includes/admin/metabox.php:72
+#: ../pack/build/speaker/includes/admin/metabox.php:72
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:551
+#: ../wp-wolf-framework/classes/class-options.php:551
+msgid "Dark"
+msgstr ""
+
+#: ../includes/admin/metabox.php:73
+#: ../pack/build/speaker/includes/admin/metabox.php:73
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:552
+#: ../wp-wolf-framework/classes/class-options.php:552
+msgid "Light"
+msgstr ""
+
+#: ../includes/admin/metabox.php:78
+#: ../pack/build/speaker/includes/admin/metabox.php:78
+msgid "Section Background"
+msgstr ""
+
+#: ../includes/admin/metabox.php:85
+#: ../pack/build/speaker/includes/admin/metabox.php:85
+msgid "Video Background mp4 file"
+msgstr ""
+
+#: ../includes/admin/metabox.php:91
+#: ../pack/build/speaker/includes/admin/metabox.php:91
+msgid "Video Background webm file (cross browser fallback)"
+msgstr ""
+
+#: ../includes/admin/metabox.php:97
+#: ../pack/build/speaker/includes/admin/metabox.php:97
+msgid "Video Background ogv file (cross browser fallback)"
+msgstr ""
+
+#: ../includes/admin/metabox.php:103
+#: ../pack/build/speaker/includes/admin/metabox.php:103
+msgid "Video Opacity (in percent)"
+msgstr ""
+
+#: ../includes/admin/metabox.php:109
+#: ../pack/build/speaker/includes/admin/metabox.php:109
+msgid "Padding Top"
+msgstr ""
+
+#: ../includes/admin/metabox.php:111 ../includes/admin/metabox.php:118
+#: ../pack/build/speaker/includes/admin/metabox.php:111
+#: ../pack/build/speaker/includes/admin/metabox.php:118
+msgid "e.g : 50px"
+msgstr ""
+
+#: ../includes/admin/metabox.php:116
+#: ../pack/build/speaker/includes/admin/metabox.php:116
+msgid "Padding Bottom"
+msgstr ""
+
+#: ../includes/admin/metabox.php:123
+#: ../pack/build/speaker/includes/admin/metabox.php:123
+msgid "Custom CSS (will be applied on this section only)"
+msgstr ""
+
+#: ../includes/admin/metabox.php:125
+#: ../pack/build/speaker/includes/admin/metabox.php:125
+msgid "e.g : h1{ color:red }"
+msgstr ""
+
+#: ../includes/admin/options.php:20
+#: ../pack/build/speaker/includes/admin/options.php:20
+msgid "General"
+msgstr ""
+
+#: ../includes/admin/options.php:24
+#: ../pack/build/speaker/includes/admin/options.php:24
+msgid "Main Settings"
+msgstr ""
+
+#: ../includes/admin/options.php:29
+#: ../pack/build/speaker/includes/admin/options.php:29
+msgid "Logo"
+msgstr ""
+
+#: ../includes/admin/options.php:35
+#: ../pack/build/speaker/includes/admin/options.php:35
+msgid "Lightbox"
+msgstr ""
+
+#: ../includes/admin/options.php:42
+#: ../pack/build/speaker/includes/admin/options.php:42
+msgid "None"
+msgstr ""
+
+#: ../includes/admin/options.php:47
+#: ../pack/build/speaker/includes/admin/options.php:47
+msgid "Menu Breakpoint in pixels"
+msgstr ""
+
+#: ../includes/admin/options.php:48
+#: ../pack/build/speaker/includes/admin/options.php:48
+msgid "Below each point would you like to display the mobile menu?"
+msgstr ""
+
+#: ../includes/admin/options.php:54
+#: ../pack/build/speaker/includes/admin/options.php:54
+msgid "Disable smooth scroll when mobile menu is on"
+msgstr ""
+
+#: ../includes/admin/options.php:60
+#: ../pack/build/speaker/includes/admin/options.php:60
+msgid "Hide sidebar on small screen (less than 500px width)"
+msgstr ""
+
+#: ../includes/admin/options.php:66
+#: ../pack/build/speaker/includes/admin/options.php:66
+msgid "Copyright Text"
+msgstr ""
+
+#: ../includes/admin/options.php:68
+#: ../pack/build/speaker/includes/admin/options.php:68
+msgid "Will be displayed at the very bottom of the page"
+msgstr ""
+
+#: ../includes/admin/options.php:82
+#: ../pack/build/speaker/includes/admin/options.php:82
+msgid "Header"
+msgstr ""
+
+#: ../includes/admin/options.php:86
+#: ../pack/build/speaker/includes/admin/options.php:86
+msgid "Home Header Settings"
+msgstr ""
+
+#: ../includes/admin/options.php:91
+#: ../pack/build/speaker/includes/admin/options.php:91
+msgid "Home Header Type"
+msgstr ""
+
+#: ../includes/admin/options.php:92
+#: ../pack/build/speaker/includes/admin/options.php:92
+msgid "What do you want to display in your home page header?"
+msgstr ""
+
+#: ../includes/admin/options.php:96 ../includes/admin/options.php:365
+#: ../includes/admin/options.php:405 ../includes/admin/options.php:447
+#: ../pack/build/speaker/includes/admin/options.php:96
+#: ../pack/build/speaker/includes/admin/options.php:365
+#: ../pack/build/speaker/includes/admin/options.php:405
+#: ../pack/build/speaker/includes/admin/options.php:447
+msgid "Standard"
+msgstr ""
+
+#: ../includes/admin/options.php:98
+#: ../pack/build/speaker/includes/admin/options.php:98
+msgid "Video Background"
+msgstr ""
+
+#: ../includes/admin/options.php:99
+#: ../pack/build/speaker/includes/admin/options.php:99
+msgid "Full Window Video Background"
+msgstr ""
+
+#: ../includes/admin/options.php:104
+#: ../pack/build/speaker/includes/admin/options.php:104
+msgid "Header Background Parallax"
+msgstr ""
+
+#: ../includes/admin/options.php:110
+#: ../pack/build/speaker/includes/admin/options.php:110
+msgid "Header Share Buttons"
+msgstr ""
+
+#: ../includes/admin/options.php:116
+#: ../pack/build/speaker/includes/admin/options.php:116
+msgid "Content Editor"
+msgstr ""
+
+#: ../includes/admin/options.php:117
+#: ../pack/build/speaker/includes/admin/options.php:117
+msgid "Optional content to display in the home page header below the logo"
+msgstr ""
+
+#: ../includes/admin/options.php:123
+#: ../pack/build/speaker/includes/admin/options.php:123
+msgid "Header Min Height"
+msgstr ""
+
+#: ../includes/admin/options.php:125
+#: ../pack/build/speaker/includes/admin/options.php:125
+msgid "The header height in percent"
+msgstr ""
+
+#: ../includes/admin/options.php:132
+#: ../pack/build/speaker/includes/admin/options.php:132
+msgid "Header Background"
+msgstr ""
+
+#: ../includes/admin/options.php:139
+#: ../pack/build/speaker/includes/admin/options.php:139
+msgid "Video background"
+msgstr ""
+
+#: ../includes/admin/options.php:141
+#: ../pack/build/speaker/includes/admin/options.php:141
+msgid "If you choose the video background option above"
+msgstr ""
+
+#: ../includes/admin/options.php:145
+#: ../pack/build/speaker/includes/admin/options.php:145
+msgid "Video URL mp4"
+msgstr ""
+
+#: ../includes/admin/options.php:151
+#: ../pack/build/speaker/includes/admin/options.php:151
+msgid "Video URL webm"
+msgstr ""
+
+#: ../includes/admin/options.php:152
+#: ../pack/build/speaker/includes/admin/options.php:152
+msgid ""
+"This field is optional but adding a webm file improves cross browser "
+"compatibility"
+msgstr ""
+
+#: ../includes/admin/options.php:158
+#: ../pack/build/speaker/includes/admin/options.php:158
+msgid "Video URL ogv"
+msgstr ""
+
+#: ../includes/admin/options.php:159
+#: ../pack/build/speaker/includes/admin/options.php:159
+msgid ""
+"This field is optional but adding an ogv file improves cross browser "
+"compatibility"
+msgstr ""
+
+#: ../includes/admin/options.php:195 ../includes/admin/options.php:199
+#: ../pack/build/speaker/includes/admin/options.php:195
+#: ../pack/build/speaker/includes/admin/options.php:199
+msgid "Blog"
+msgstr ""
+
+#: ../includes/admin/options.php:204
+#: ../pack/build/speaker/includes/admin/options.php:204
+msgid "Display sidebar"
+msgstr ""
+
+#: ../includes/admin/options.php:210
+#: ../pack/build/speaker/includes/admin/options.php:210
+msgid "Home page post count"
+msgstr ""
+
+#: ../includes/admin/options.php:211
+#: ../pack/build/speaker/includes/admin/options.php:211
+msgid ""
+"The number of post to display on the home page blog section if set (multiple "
+"of 3)"
+msgstr ""
+
+#: ../includes/admin/options.php:217
+#: ../pack/build/speaker/includes/admin/options.php:217
+msgid "Show author bio"
+msgstr ""
+
+#: ../includes/admin/options.php:218
+#: ../pack/build/speaker/includes/admin/options.php:218
+msgid ""
+"Show the author bio below each single blog post? The author must have "
+"entered his descirption in his profile to display his bio."
+msgstr ""
+
+#: ../includes/admin/options.php:224 ../includes/admin/options.php:245
+#: ../pack/build/speaker/includes/admin/options.php:224
+#: ../pack/build/speaker/includes/admin/options.php:245
+msgid "Share Links"
+msgstr ""
+
+#: ../includes/admin/options.php:225
+#: ../pack/build/speaker/includes/admin/options.php:225
+msgid "Display \"share\" links below each single post ?"
+msgstr ""
+
+#: ../includes/admin/options.php:241
+#: ../pack/build/speaker/includes/admin/options.php:241
+msgid "Share"
+msgstr ""
+
+#: ../includes/admin/options.php:250
+#: ../pack/build/speaker/includes/admin/options.php:250
+msgid "Generate Facebook & Google plus meta"
+msgstr ""
+
+#: ../includes/admin/options.php:251
+#: ../pack/build/speaker/includes/admin/options.php:251
+msgid ""
+"Would you like to generate facebook and google plus metadata? Disable this "
+"function if you use a SEO plugin."
+msgstr ""
+
+#: ../includes/admin/options.php:257
+#: ../pack/build/speaker/includes/admin/options.php:257
+msgid "Default Share image (used for facebook and google plus)"
+msgstr ""
+
+#: ../includes/admin/options.php:258
+#: ../pack/build/speaker/includes/admin/options.php:258
+msgid ""
+"By default, the post featured image will be shown when you share a post/page "
+"on facebook. Here you can set the default image that will be displayed if no "
+"featured image is set"
+msgstr ""
+
+#: ../includes/admin/options.php:264
+#: ../pack/build/speaker/includes/admin/options.php:264
+msgid "Share Text"
+msgstr ""
+
+#: ../includes/admin/options.php:270
+#: ../pack/build/speaker/includes/admin/options.php:270
+msgid "Facebook"
+msgstr ""
+
+#: ../includes/admin/options.php:276
+#: ../pack/build/speaker/includes/admin/options.php:276
+msgid "Twitter"
+msgstr ""
+
+#: ../includes/admin/options.php:282
+#: ../pack/build/speaker/includes/admin/options.php:282
+msgid "Pinterest"
+msgstr ""
+
+#: ../includes/admin/options.php:288
+#: ../pack/build/speaker/includes/admin/options.php:288
+msgid "Google plus"
+msgstr ""
+
+#: ../includes/admin/options.php:294
+#: ../pack/build/speaker/includes/admin/options.php:294
+msgid "Tumblr"
+msgstr ""
+
+#: ../includes/admin/options.php:300
+#: ../pack/build/speaker/includes/admin/options.php:300
+msgid "Stumbleupon"
+msgstr ""
+
+#: ../includes/admin/options.php:306
+#: ../pack/build/speaker/includes/admin/options.php:306
+msgid "Linked In"
+msgstr ""
+
+#: ../includes/admin/options.php:312
+#: ../pack/build/speaker/includes/admin/options.php:312
+#: ../pack/build/speaker/wp-wolf-framework/includes/filters.php:50
+#: ../wp-wolf-framework/includes/filters.php:50
+msgid "Email"
+msgstr ""
+
+#: ../includes/admin/options.php:327
+#: ../pack/build/speaker/includes/admin/options.php:327
+msgid "Google Fonts"
+msgstr ""
+
+#: ../includes/admin/options.php:332
+#: ../pack/build/speaker/includes/admin/options.php:332
+msgid "Headings"
+msgstr ""
+
+#: ../includes/admin/options.php:334 ../includes/admin/options.php:376
+#: ../pack/build/speaker/includes/admin/options.php:334
+#: ../pack/build/speaker/includes/admin/options.php:376
+msgid "Leave the fields below empty to use the default font"
+msgstr ""
+
+#: ../includes/admin/options.php:338
+#: ../pack/build/speaker/includes/admin/options.php:338
+msgid "Titles google font code"
+msgstr ""
+
+#: ../includes/admin/options.php:340
+#: ../pack/build/speaker/includes/admin/options.php:340
+msgid "eg: Lora:400,700<br> 400 and 700 are the available font weights"
+msgstr ""
+
+#: ../includes/admin/options.php:346
+#: ../pack/build/speaker/includes/admin/options.php:346
+msgid "Titles font name"
+msgstr ""
+
+#: ../includes/admin/options.php:348 ../includes/admin/options.php:389
+#: ../includes/admin/options.php:430 ../includes/admin/options.php:471
+#: ../includes/admin/options.php:493
+#: ../pack/build/speaker/includes/admin/options.php:348
+#: ../pack/build/speaker/includes/admin/options.php:389
+#: ../pack/build/speaker/includes/admin/options.php:430
+#: ../pack/build/speaker/includes/admin/options.php:471
+#: ../pack/build/speaker/includes/admin/options.php:493
+msgid "eg: Lora"
+msgstr ""
+
+#: ../includes/admin/options.php:353
+#: ../pack/build/speaker/includes/admin/options.php:353
+msgid "Titles font weight"
+msgstr ""
+
+#: ../includes/admin/options.php:355 ../includes/admin/options.php:437
+#: ../pack/build/speaker/includes/admin/options.php:355
+#: ../pack/build/speaker/includes/admin/options.php:437
+msgid ""
+"For example: 400 is normal, 700 is bold.<br> The available font weights "
+"depend on the font."
+msgstr ""
+
+#: ../includes/admin/options.php:361
+#: ../pack/build/speaker/includes/admin/options.php:361
+msgid "Titles text transform"
+msgstr ""
+
+#: ../includes/admin/options.php:366 ../includes/admin/options.php:406
+#: ../includes/admin/options.php:448
+#: ../pack/build/speaker/includes/admin/options.php:366
+#: ../pack/build/speaker/includes/admin/options.php:406
+#: ../pack/build/speaker/includes/admin/options.php:448
+msgid "Uppercase"
+msgstr ""
+
+#: ../includes/admin/options.php:374
+#: ../pack/build/speaker/includes/admin/options.php:374
+msgid "Menu"
+msgstr ""
+
+#: ../includes/admin/options.php:380 ../includes/admin/options.php:421
+#: ../pack/build/speaker/includes/admin/options.php:380
+#: ../pack/build/speaker/includes/admin/options.php:421
+msgid "Menu google font code"
+msgstr ""
+
+#: ../includes/admin/options.php:382 ../includes/admin/options.php:423
+#: ../includes/admin/options.php:464 ../includes/admin/options.php:486
+#: ../pack/build/speaker/includes/admin/options.php:382
+#: ../pack/build/speaker/includes/admin/options.php:423
+#: ../pack/build/speaker/includes/admin/options.php:464
+#: ../pack/build/speaker/includes/admin/options.php:486
+msgid "eg: Lora:400,700"
+msgstr ""
+
+#: ../includes/admin/options.php:387 ../includes/admin/options.php:428
+#: ../pack/build/speaker/includes/admin/options.php:387
+#: ../pack/build/speaker/includes/admin/options.php:428
+msgid "Menu font name"
+msgstr ""
+
+#: ../includes/admin/options.php:394
+#: ../pack/build/speaker/includes/admin/options.php:394
+msgid "Menu font weight"
+msgstr ""
+
+#: ../includes/admin/options.php:401
+#: ../pack/build/speaker/includes/admin/options.php:401
+msgid "Menu text transform"
+msgstr ""
+
+#: ../includes/admin/options.php:414
+#: ../pack/build/speaker/includes/admin/options.php:414
+msgid "Custom Font"
+msgstr ""
+
+#: ../includes/admin/options.php:416
+#: ../pack/build/speaker/includes/admin/options.php:416
+msgid ""
+"To use this custom font add the \"custom-font\" class to any element e.g "
+"<code>&lt;h1 class=&quot;custom-font&quot;&gt;My Custom Title&lt;/h1&gt;</"
+"code>"
+msgstr ""
+
+#: ../includes/admin/options.php:435
+#: ../pack/build/speaker/includes/admin/options.php:435
+msgid "Custom font weight"
+msgstr ""
+
+#: ../includes/admin/options.php:443
+#: ../pack/build/speaker/includes/admin/options.php:443
+msgid "Custom font text transform"
+msgstr ""
+
+#: ../includes/admin/options.php:456
+#: ../pack/build/speaker/includes/admin/options.php:456
+msgid "Body"
+msgstr ""
+
+#: ../includes/admin/options.php:458
+#: ../pack/build/speaker/includes/admin/options.php:458
+msgid "The default font for your page body"
+msgstr ""
+
+#: ../includes/admin/options.php:462
+#: ../pack/build/speaker/includes/admin/options.php:462
+msgid "Body google font code"
+msgstr ""
+
+#: ../includes/admin/options.php:469
+#: ../pack/build/speaker/includes/admin/options.php:469
+msgid "Body font name"
+msgstr ""
+
+#: ../includes/admin/options.php:478
+#: ../pack/build/speaker/includes/admin/options.php:478
+msgid "Entry"
+msgstr ""
+
+#: ../includes/admin/options.php:480
+#: ../pack/build/speaker/includes/admin/options.php:480
+msgid "The font used for the post content"
+msgstr ""
+
+#: ../includes/admin/options.php:484
+#: ../pack/build/speaker/includes/admin/options.php:484
+msgid "Entry google font code"
+msgstr ""
+
+#: ../includes/admin/options.php:491
+#: ../pack/build/speaker/includes/admin/options.php:491
+msgid "Entry font name"
+msgstr ""
+
+#: ../includes/admin/options.php:514
+#: ../pack/build/speaker/includes/admin/options.php:514
+msgid "Custom CSS"
+msgstr ""
+
+#: ../includes/admin/options.php:515
+#: ../pack/build/speaker/includes/admin/options.php:515
+msgid ""
+"Want to add any custom CSS code? Put in here, and the rest is taken care of."
+msgstr ""
+
+#: ../includes/admin/options.php:530 ../includes/admin/options.php:532
+#: ../includes/admin/options.php:536
+#: ../pack/build/speaker/includes/admin/options.php:530
+#: ../pack/build/speaker/includes/admin/options.php:532
+#: ../pack/build/speaker/includes/admin/options.php:536
+msgid "Tracking Code"
+msgstr ""
+
+#: ../includes/admin/options.php:537
+#: ../pack/build/speaker/includes/admin/options.php:537
+msgid ""
+"You can paste your <strong>Google Analytics</strong> or other tracking code "
+"in this box. \n"
+"\t\t\t\t<br>Note that your tracking code will not be output when you're "
+"logged in to not count your own page views."
+msgstr ""
+
+#: ../includes/admin/options.php:555 ../includes/admin/options.php:559
+#: ../pack/build/speaker/includes/admin/options.php:555
+#: ../pack/build/speaker/includes/admin/options.php:559
+msgid "Misc"
+msgstr ""
+
+#: ../includes/admin/options.php:564
+#: ../pack/build/speaker/includes/admin/options.php:564
+msgid "No loader"
+msgstr ""
+
+#: ../includes/admin/options.php:567
+#: ../pack/build/speaker/includes/admin/options.php:567
+msgid "Disable loading overlay animation."
+msgstr ""
+
+#: ../includes/admin/options.php:571
+#: ../pack/build/speaker/includes/admin/options.php:571
+msgid "Loading Overlay Color"
+msgstr ""
+
+#: ../includes/admin/options.php:578
+#: ../pack/build/speaker/includes/admin/options.php:578
+msgid "Admin Login Logo"
+msgstr ""
+
+#: ../includes/admin/options.php:580
+#: ../pack/build/speaker/includes/admin/options.php:580
+msgid "Login page logo ( 80px X 80px )"
+msgstr ""
+
+#: ../includes/admin/options.php:586
+#: ../pack/build/speaker/includes/admin/options.php:586
+msgid "Custom Default Avatar (80px X 80px)"
+msgstr ""
+
+#: ../includes/admin/options.php:588
+#: ../pack/build/speaker/includes/admin/options.php:588
+#, php-format
+msgid ""
+"Once uploaded and saved, select your new avatar in the <a href=\"%s"
+"\">discussion settings</a>"
+msgstr ""
+
+#: ../includes/admin/options.php:594
+#: ../pack/build/speaker/includes/admin/options.php:594
+msgid "Use minified JS files"
+msgstr ""
+
+#: ../includes/admin/options.php:597
+#: ../pack/build/speaker/includes/admin/options.php:597
+msgid ""
+"It can increase performance a little bit. Disable this option if you want to "
+"edit the JS files."
+msgstr ""
+
+#: ../includes/admin/options.php:608
+#: ../pack/build/speaker/includes/admin/options.php:608
+msgid "Social Links"
+msgstr ""
+
+#: ../includes/admin/options.php:610
+#: ../pack/build/speaker/includes/admin/options.php:610
+msgid "Socials"
+msgstr ""
+
+#: ../includes/admin/options.php:612
+#: ../pack/build/speaker/includes/admin/options.php:612
+msgid ""
+"Set your social network profile URLs here. The social icons will be "
+"automatically displayed in the header"
+msgstr ""
+
+#: ../includes/admin/options.php:684
+#: ../pack/build/speaker/includes/admin/options.php:684
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1291
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr ""
+
+#: ../includes/admin/options.php:686
+#: ../pack/build/speaker/includes/admin/options.php:686
+msgid "Plugin Settings"
+msgstr ""
+
+#: ../includes/admin/options.php:692
+#: ../pack/build/speaker/includes/admin/options.php:692
+msgid "Display WooCommerce cart menu item"
+msgstr ""
+
+#: ../includes/admin/options.php:700
+#: ../pack/build/speaker/includes/admin/options.php:700
+msgid "Open Videos in a lightbox"
+msgstr ""
+
+#: ../includes/admin/options.php:716
+#: ../pack/build/speaker/includes/admin/options.php:716
+#, php-format
+msgid ""
+"Want to add any custom CSS code? Put in here, and the rest is taken care of. "
+"If you need more CSS customization, you should create a <a href=\"%s\" "
+"target=\"_blank\">Child Theme</a>"
+msgstr ""
+
+#: ../includes/admin/plugins/plugins.php:134
+#: ../pack/build/speaker/includes/admin/plugins/plugins.php:134
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:155
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:155
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../includes/admin/plugins/plugins.php:135
+#: ../pack/build/speaker/includes/admin/plugins/plugins.php:135
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:156
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:156
+msgid "Install Plugins"
+msgstr ""
+
+#: ../includes/admin/plugins/plugins.php:136
+#: ../pack/build/speaker/includes/admin/plugins/plugins.php:136
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:157
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:157
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../includes/admin/plugins/plugins.php:137
+#: ../pack/build/speaker/includes/admin/plugins/plugins.php:137
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../includes/admin/plugins/plugins.php:148
+#: ../pack/build/speaker/includes/admin/plugins/plugins.php:148
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:169
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:169
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../includes/admin/plugins/plugins.php:149
+#: ../pack/build/speaker/includes/admin/plugins/plugins.php:149
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:171
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1840
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:171
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1840
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../includes/admin/plugins/plugins.php:150
+#: ../pack/build/speaker/includes/admin/plugins/plugins.php:150
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:72
+#: ../pack/build/speaker/includes/admin/video-thumbnails.php:72
+#, php-format
+msgid ""
+"Error retrieving video information from the URL <a href=\"%1$s\">%1$s</a>."
+"<br />\n"
+"\t\t\t\t\t\t\t\t<a href=\"%2$s\">Libcurl error</a> %3$s: <code>%4$s</"
+"code>. \n"
+"\t\t\t\t\t\t\t\tIf opening that URL in your web browser returns anything "
+"else than an error page, \n"
+"\t\t\t\t\t\t\t\tthe problem may be related to your web server and might be "
+"something your host administrator can solve."
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:433
+#: ../includes/admin/video-thumbnails.php:600
+#: ../pack/build/speaker/includes/admin/video-thumbnails.php:433
+#: ../pack/build/speaker/includes/admin/video-thumbnails.php:600
+msgid "Reset"
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:434
+#: ../includes/admin/video-thumbnails.php:601
+#: ../pack/build/speaker/includes/admin/video-thumbnails.php:434
+#: ../pack/build/speaker/includes/admin/video-thumbnails.php:601
+msgid "Delete"
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:460
+#: ../pack/build/speaker/includes/admin/video-thumbnails.php:460
+msgid "Remove featured image"
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:471
+#: ../pack/build/speaker/includes/admin/video-thumbnails.php:471
+msgid "Working..."
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:519
+#: ../pack/build/speaker/includes/admin/video-thumbnails.php:519
+msgid "Set featured image"
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:596
+#: ../pack/build/speaker/includes/admin/video-thumbnails.php:596
+msgid "No video URL in the post."
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:597
+#: ../pack/build/speaker/includes/admin/video-thumbnails.php:597
+msgid ""
+"A video has been attached to this post. Click on \"Generate\" to create a "
+"thumbnail from this video"
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:598
+#: ../pack/build/speaker/includes/admin/video-thumbnails.php:598
+msgid ""
+"You will be able to generate a video thumbnail and use it as featured image "
+"for this post when it is published."
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:599
+#: ../pack/build/speaker/includes/admin/video-thumbnails.php:599
+msgid "Generate"
+msgstr ""
+
+#: ../includes/customizer-options.php:18
+#: ../pack/build/speaker/includes/customizer-options.php:18
+msgid "Presets"
+msgstr ""
+
+#: ../includes/customizer-options.php:19
+#: ../pack/build/speaker/includes/customizer-options.php:19
+msgid ""
+"The skin presets will update your layout options but keep your uploaded "
+"background images."
+msgstr ""
+
+#: ../includes/customizer-options.php:25
+#: ../pack/build/speaker/includes/customizer-options.php:25
+msgid "Preset Skins"
+msgstr ""
+
+#: ../includes/customizer-options.php:30
+#: ../pack/build/speaker/includes/customizer-options.php:30
+msgid "dark"
+msgstr ""
+
+#: ../includes/customizer-options.php:40 ../includes/customizer-options.php:47
+#: ../pack/build/speaker/includes/customizer-options.php:40
+#: ../pack/build/speaker/includes/customizer-options.php:47
+msgid "Accent Color"
+msgstr ""
+
+#: ../includes/customizer-options.php:41
+#: ../pack/build/speaker/includes/customizer-options.php:41
+msgid "The accent color used for links and keypoints"
+msgstr ""
+
+#: ../includes/customizer-options.php:55
+#: ../pack/build/speaker/includes/customizer-options.php:55
+msgid "Page"
+msgstr ""
+
+#: ../includes/customizer-options.php:56
+#: ../pack/build/speaker/includes/customizer-options.php:56
+msgid "The main content area visible on standard pages"
+msgstr ""
+
+#: ../includes/customizer-options.php:62
+#: ../pack/build/speaker/includes/customizer-options.php:62
+msgid "The main page content that is visible on standard page"
+msgstr ""
+
+#: ../includes/customizer-options.php:63
+#: ../pack/build/speaker/includes/customizer-options.php:63
+msgid "Page Content"
+msgstr ""
+
+#: ../includes/customizer-options.php:71
+#: ../pack/build/speaker/includes/customizer-options.php:71
+msgid "Footer"
+msgstr ""
+
+#: ../includes/customizer-options.php:82
+#: ../pack/build/speaker/includes/customizer-options.php:82
+msgid "The music logos area at the bottom of the page."
+msgstr ""
+
+#: ../includes/customizer-options.php:83
+#: ../pack/build/speaker/includes/customizer-options.php:83
+msgid "Music Network background"
+msgstr ""
+
+#: ../includes/functions.php:27
+#: ../pack/build/speaker/includes/functions.php:27
+msgid "Custom avatar"
+msgstr ""
+
+#: ../includes/functions.php:200
+#: ../pack/build/speaker/includes/functions.php:200
+msgid "Pingback:"
+msgstr ""
+
+#: ../includes/functions.php:227
+#: ../pack/build/speaker/includes/functions.php:227
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../includes/functions.php:233
+#: ../pack/build/speaker/includes/functions.php:233
+msgid "Reply"
+msgstr ""
+
+#: ../includes/gallery.php:22 ../pack/build/speaker/includes/gallery.php:22
+msgid "Custom Size"
+msgstr ""
+
+#: ../includes/gallery.php:24 ../includes/gallery.php:62
+#: ../pack/build/speaker/includes/gallery.php:24
+#: ../pack/build/speaker/includes/gallery.php:62
+msgid "This settings will be applied for the \"mosaic gallery\" only."
+msgstr ""
+
+#: ../includes/gallery.php:31 ../pack/build/speaker/includes/gallery.php:31
+msgid "Small Square"
+msgstr ""
+
+#: ../includes/gallery.php:32 ../pack/build/speaker/includes/gallery.php:32
+msgid "Big Square"
+msgstr ""
+
+#: ../includes/gallery.php:33 ../pack/build/speaker/includes/gallery.php:33
+msgid "portrtait"
+msgstr ""
+
+#: ../includes/gallery.php:34 ../pack/build/speaker/includes/gallery.php:34
+msgid "landscape"
+msgstr ""
+
+#: ../includes/gallery.php:60 ../pack/build/speaker/includes/gallery.php:60
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:641
+#: ../wp-wolf-framework/classes/class-options.php:641
+msgid "Position"
+msgstr ""
+
+#: ../includes/sidebars.php:27 ../pack/build/speaker/includes/sidebars.php:27
+msgid "Main Sidebar"
+msgstr ""
+
+#: ../includes/sidebars.php:29 ../pack/build/speaker/includes/sidebars.php:29
+msgid "Appears on pages that support a sidebar"
+msgstr ""
+
+#: ../includes/sidebars.php:40 ../pack/build/speaker/includes/sidebars.php:40
+msgid "Footer Widget Area"
+msgstr ""
+
+#: ../includes/sidebars.php:42 ../pack/build/speaker/includes/sidebars.php:42
+msgid "Appears in the footer section of the site (supports 4 widgets)"
+msgstr ""
+
+#: ../includes/template-tags.php:51
+#: ../pack/build/speaker/includes/template-tags.php:51
+msgid "Sticky"
+msgstr ""
+
+#: ../includes/template-tags.php:61
+#: ../pack/build/speaker/includes/template-tags.php:61
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../includes/template-tags.php:67 ../includes/template-tags.php:73
+#: ../pack/build/speaker/includes/template-tags.php:67
+#: ../pack/build/speaker/includes/template-tags.php:73
+msgid ", "
+msgstr ""
+
+#: ../includes/template-tags.php:179
+#: ../pack/build/speaker/includes/template-tags.php:179
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../includes/template-tags.php:183
+#: ../pack/build/speaker/includes/template-tags.php:183
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../includes/theme-functions.php:253 ../includes/theme-functions.php:271
+#: ../pack/build/speaker/includes/theme-functions.php:253
+#: ../pack/build/speaker/includes/theme-functions.php:271
+#: ../pack/build/speaker/partials/content-post.php:20
+#: ../partials/content-post.php:20
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: ../includes/theme-functions.php:260
+#: ../pack/build/speaker/includes/theme-functions.php:260
+msgid "More about this video &rarr;"
+msgstr ""
+
+#: ../includes/theme-functions.php:264
+#: ../pack/build/speaker/includes/theme-functions.php:264
+msgid "View more &rarr;"
+msgstr ""
+
+#: ../includes/theme-functions.php:268
+#: ../pack/build/speaker/includes/theme-functions.php:268
+msgid "More infos &rarr;"
+msgstr ""
+
+#: ../includes/theme-functions.php:337
+#: ../pack/build/speaker/includes/theme-functions.php:337
+#, php-format
+msgid "View %s facebook profile"
+msgstr ""
+
+#: ../includes/theme-functions.php:340
+#: ../pack/build/speaker/includes/theme-functions.php:340
+#, php-format
+msgid "Follow %s on twitter"
+msgstr ""
+
+#: ../includes/theme-functions.php:344
+#: ../pack/build/speaker/includes/theme-functions.php:344
+#, php-format
+msgid "Visit %s website"
+msgstr ""
+
+#: ../includes/theme-functions.php:447
+#: ../pack/build/speaker/includes/theme-functions.php:447
+msgid "Older"
+msgstr ""
+
+#: ../includes/theme-functions.php:459
+#: ../pack/build/speaker/includes/theme-functions.php:459
+msgid "Newer"
+msgstr ""
+
+#: ../includes/theme-functions.php:521
+#: ../pack/build/speaker/includes/theme-functions.php:521
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../includes/theme-functions.php:589
+#: ../pack/build/speaker/includes/theme-functions.php:589
+msgid "Cart"
+msgstr ""
+
+#: ../includes/theme-functions.php:593
+#: ../pack/build/speaker/includes/theme-functions.php:593
+msgid "View Cart &rarr;"
+msgstr ""
+
+#: ../pack/build/speaker/page-templates/post-archives.php:18
+#: ../pack/build/speaker/partials/content-none.php:25
+#: ../pack/build/speaker/partials/content-none.php:32
+#: ../page-templates/post-archives.php:18 ../partials/content-none.php:25
+#: ../partials/content-none.php:32
+msgid "Most used tags : "
+msgstr ""
+
+#: ../pack/build/speaker/page-templates/post-archives.php:47
+#: ../page-templates/post-archives.php:47
+msgid "Last 30 posts"
+msgstr ""
+
+#: ../pack/build/speaker/page-templates/post-archives.php:53
+#: ../page-templates/post-archives.php:53
+msgid "Archives by Month"
+msgstr ""
+
+#: ../pack/build/speaker/page-templates/post-archives.php:59
+#: ../page-templates/post-archives.php:59
+msgid "Archives by Subject"
+msgstr ""
+
+#: ../pack/build/speaker/partials/author-bio.php:16
+#: ../partials/author-bio.php:16
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../pack/build/speaker/partials/author-bio.php:20
+#: ../partials/author-bio.php:20
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../pack/build/speaker/partials/content-none.php:12
+#: ../partials/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: ../pack/build/speaker/partials/content-none.php:18
+#: ../partials/content-none.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../pack/build/speaker/partials/content-none.php:22
+#: ../partials/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: ../pack/build/speaker/partials/content-none.php:29
+#: ../partials/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../pack/build/speaker/partials/content-post.php:33
+#: ../pack/build/speaker/partials/loop-post-front.php:70
+#: ../pack/build/speaker/partials/loop-post-front.php:106
+#: ../pack/build/speaker/single.php:29 ../partials/content-post.php:33
+#: ../partials/loop-post-front.php:70 ../partials/loop-post-front.php:106
+#: ../single.php:29
+msgid "Leave a comment"
+msgstr ""
+
+#: ../pack/build/speaker/partials/content-post.php:33
+#: ../pack/build/speaker/partials/loop-post-front.php:70
+#: ../pack/build/speaker/partials/loop-post-front.php:106
+#: ../pack/build/speaker/single.php:29 ../partials/content-post.php:33
+#: ../partials/loop-post-front.php:70 ../partials/loop-post-front.php:106
+#: ../single.php:29
+msgid "One comment so far"
+msgstr ""
+
+#: ../pack/build/speaker/partials/content-post.php:33
+#: ../pack/build/speaker/partials/loop-post-front.php:70
+#: ../pack/build/speaker/partials/loop-post-front.php:106
+#: ../pack/build/speaker/single.php:29 ../partials/content-post.php:33
+#: ../partials/loop-post-front.php:70 ../partials/loop-post-front.php:106
+#: ../single.php:29
+#, php-format
+msgid "View all % comments"
+msgstr ""
+
+#: ../pack/build/speaker/partials/content-section.php:41
+#: ../partials/content-section.php:41
+msgid "Edit Section"
+msgstr ""
+
+#: ../pack/build/speaker/partials/loop-post-front.php:120
+#: ../partials/loop-post-front.php:120
+msgid "Read More News"
+msgstr ""
+
+#: ../pack/build/speaker/partials/loop-post-front.php:122
+#: ../partials/loop-post-front.php:122
+msgid "No post published yet."
+msgstr ""
+
+#: ../pack/build/speaker/partials/share-post.php:21
+#: ../pack/build/speaker/partials/share-post.php:24
+#: ../pack/build/speaker/partials/share-post.php:27
+#: ../pack/build/speaker/partials/share-post.php:30
+#: ../pack/build/speaker/partials/share-post.php:33
+#: ../pack/build/speaker/partials/share-post.php:36
+#: ../pack/build/speaker/partials/share-post.php:39
+#: ../pack/build/speaker/partials/share-post.php:42
+#: ../partials/share-post.php:21 ../partials/share-post.php:24
+#: ../partials/share-post.php:27 ../partials/share-post.php:30
+#: ../partials/share-post.php:33 ../partials/share-post.php:36
+#: ../partials/share-post.php:39
+#, php-format
+msgid "Share on %s"
+msgstr ""
+
+#: ../pack/build/speaker/searchform.php:11 ../searchform.php:11
+msgid "Search &hellip;"
+msgstr ""
+
+#: ../pack/build/speaker/searchform.php:12 ../searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: ../pack/build/speaker/single-release.php:81 ../single-release.php:81
+msgid "Buy"
+msgstr ""
+
+#: ../pack/build/speaker/single-release.php:97 ../single-release.php:97
+msgid "Title"
+msgstr ""
+
+#: ../pack/build/speaker/single-release.php:102 ../single-release.php:102
+msgid "Release Date"
+msgstr ""
+
+#: ../pack/build/speaker/single-release.php:110 ../single-release.php:110
+msgid "Catalog ref."
+msgstr ""
+
+#: ../pack/build/speaker/single-release.php:115 ../single-release.php:115
+msgid "Format"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-customizer.php:368
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:557
+#: ../wp-wolf-framework/classes/class-customizer.php:368
+#: ../wp-wolf-framework/classes/class-options.php:557
+msgid "Font Color"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-customizer.php:396
+#: ../wp-wolf-framework/classes/class-customizer.php:396
+msgid "No Background"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-customizer.php:420
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:576
+#: ../wp-wolf-framework/classes/class-customizer.php:420
+#: ../wp-wolf-framework/classes/class-options.php:576
+msgid "Background Color"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-customizer.php:442
+#: ../wp-wolf-framework/classes/class-customizer.php:442
+msgid "Background color opacity (in percent)"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-customizer.php:461
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:590
+#: ../wp-wolf-framework/classes/class-customizer.php:461
+#: ../wp-wolf-framework/classes/class-options.php:590
+msgid "Background Image"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-customizer.php:483
+#: ../wp-wolf-framework/classes/class-customizer.php:483
+msgid "Background Repeat"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-customizer.php:509
+#: ../wp-wolf-framework/classes/class-customizer.php:509
+msgid "Background Position"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-customizer.php:540
+#: ../wp-wolf-framework/classes/class-customizer.php:540
+msgid "Background Attachment"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-customizer.php:564
+#: ../wp-wolf-framework/classes/class-customizer.php:564
+msgid "Background Size"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-customizer.php:567
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-metabox.php:248
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:677
+#: ../wp-wolf-framework/classes/class-customizer.php:567
+#: ../wp-wolf-framework/classes/class-metabox.php:248
+#: ../wp-wolf-framework/classes/class-options.php:677
+msgid "cover (resize)"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-customizer.php:568
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-metabox.php:249
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:678
+#: ../wp-wolf-framework/classes/class-customizer.php:568
+#: ../wp-wolf-framework/classes/class-metabox.php:249
+#: ../wp-wolf-framework/classes/class-options.php:678
+msgid "normal"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-customizer.php:569
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-metabox.php:250
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:679
+#: ../wp-wolf-framework/classes/class-customizer.php:569
+#: ../wp-wolf-framework/classes/class-metabox.php:250
+#: ../wp-wolf-framework/classes/class-options.php:679
+msgid "responsive (hard resize)"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-customizer.php:588
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-metabox.php:265
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:705
+#: ../wp-wolf-framework/classes/class-customizer.php:588
+#: ../wp-wolf-framework/classes/class-metabox.php:265
+#: ../wp-wolf-framework/classes/class-options.php:705
+msgid "Parallax"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-customizer.php:633
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-customizer.php:652
+#: ../wp-wolf-framework/classes/class-customizer.php:633
+#: ../wp-wolf-framework/classes/class-customizer.php:652
+msgid "Default"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-customizer.php:666
+#: ../wp-wolf-framework/classes/class-customizer.php:666
+msgid "reset all"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-default-pages.php:47
+#: ../wp-wolf-framework/classes/class-default-pages.php:47
+msgid "The default pages have been created!"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-default-pages.php:66
+#: ../wp-wolf-framework/classes/class-default-pages.php:66
+#, php-format
+msgid ""
+"You can install default pages to help you to get started with <strong>%s</"
+"strong> theme."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-default-pages.php:70
+#: ../wp-wolf-framework/classes/class-default-pages.php:70
+msgid ""
+"<strong>It is recommended to install and activate the plugins you need from "
+"the recommended plugins list first</strong>, in order to install the default "
+"pages accordingly."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-default-pages.php:74
+#: ../wp-wolf-framework/classes/class-default-pages.php:74
+#, php-format
+msgid ""
+"<a href=\"%1$s\" class=\"button-primary\">Install default pages</a> <a href="
+"\"%2$s\" class=\"button\">Dismiss this message</a>"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-metabox.php:162
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-metabox.php:190
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:512
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:529
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:597
+#: ../wp-wolf-framework/classes/class-metabox.php:162
+#: ../wp-wolf-framework/classes/class-metabox.php:190
+#: ../wp-wolf-framework/classes/class-options.php:512
+#: ../wp-wolf-framework/classes/class-options.php:529
+#: ../wp-wolf-framework/classes/class-options.php:597
+msgid "Clear"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-metabox.php:163
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:530
+#: ../wp-wolf-framework/classes/class-metabox.php:163
+#: ../wp-wolf-framework/classes/class-options.php:530
+msgid "Choose a file"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-metabox.php:182
+#: ../wp-wolf-framework/classes/class-metabox.php:182
+msgid "Background color"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-metabox.php:186
+#: ../wp-wolf-framework/classes/class-metabox.php:186
+msgid "Background image"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-metabox.php:191
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:513
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:598
+#: ../wp-wolf-framework/classes/class-metabox.php:191
+#: ../wp-wolf-framework/classes/class-options.php:513
+#: ../wp-wolf-framework/classes/class-options.php:598
+msgid "Choose an image"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-metabox.php:200
+#: ../wp-wolf-framework/classes/class-metabox.php:200
+msgid "Background repeat"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-metabox.php:223
+#: ../wp-wolf-framework/classes/class-metabox.php:223
+msgid "Background position"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-metabox.php:237
+#: ../wp-wolf-framework/classes/class-metabox.php:237
+msgid "Background attachment"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-metabox.php:255
+#: ../wp-wolf-framework/classes/class-metabox.php:255
+msgid "Background size"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:101
+#: ../wp-wolf-framework/classes/class-options.php:101
+msgid "is not a valid email"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:182
+#: ../wp-wolf-framework/classes/class-options.php:182
+msgid "Your settings have been saved."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:185
+#: ../wp-wolf-framework/classes/class-options.php:185
+msgid "Your settings have been reset."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:209
+#: ../wp-wolf-framework/classes/class-options.php:209
+#, php-format
+msgid "v.%1$s (Parent Theme v.%2$s)"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:255
+#: ../wp-wolf-framework/classes/class-options.php:255
+msgid "Save changes"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:313
+#: ../wp-wolf-framework/classes/class-options.php:313
+msgid "Are you sure to want to reset all options ?"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:318
+#: ../wp-wolf-framework/classes/class-options.php:318
+msgid "Reset all options"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:367
+#: ../wp-wolf-framework/classes/class-options.php:367
+msgid "Click to view the screenshot helper"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:611
+#: ../wp-wolf-framework/classes/class-options.php:611
+msgid "Repeat"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:661
+#: ../wp-wolf-framework/classes/class-options.php:661
+msgid "Attachment"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-options.php:685
+#: ../wp-wolf-framework/classes/class-options.php:685
+msgid "Size"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:158
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:170
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:172
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:172
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:173
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:174
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1085
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1090
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1093
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1097
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1100
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1100
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1103
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1105
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1275
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1292
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1293
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1294
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1312
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1313
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1823
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1824
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1825
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1826
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1827
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1828
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1839
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1949
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1950
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1950
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1959
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1950
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1950
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1959
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1950
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1951
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1952
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1956
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1957
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1958
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1959
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1960
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1961
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-tgm-plugin-activation.php:2052
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-update-zip.php:53
+#: ../wp-wolf-framework/classes/class-update-zip.php:53
+#, php-format
+msgid ""
+"<em>You server configuration does not allow you to update by uploading a "
+"zip. You need %s installed. You will have to update the theme via FTP.</em>"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-update-zip.php:77
+#: ../wp-wolf-framework/classes/class-update-zip.php:77
+msgid ""
+"To be able to update using zip file upload, the <strong>\"tmp\"</strong> "
+"folder inside the theme directory has to be writable. Set the folder "
+"permission to 777 through your FTP client. Otherwise you can choose to "
+"update the theme via FTP."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-update-zip.php:91
+#: ../wp-wolf-framework/classes/class-update-zip.php:91
+#, php-format
+msgid ""
+"Error while trying to find the folder <strong>%s</strong>. \n"
+"\t\t\t\t\t\t\tPlease create it manually and set the permission to 777 "
+"through your FTP client.<br>\n"
+"\t\t\t\t\t\t\tThis folder is necessary to be able to update the theme via "
+"zip file uload.\n"
+"\t\t\t\t\t\t\tOtherwise you can choose to update the theme via FTP."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-update-zip.php:109
+#: ../wp-wolf-framework/classes/class-update-zip.php:109
+msgid "Update using zip file upload"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-update-zip.php:111
+#: ../wp-wolf-framework/classes/class-update-zip.php:111
+#, php-format
+msgid "To update the theme, please upload the %s file from your theme package."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-update-zip.php:116
+#: ../wp-wolf-framework/classes/class-update-zip.php:116
+msgid "Update Theme"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-update-zip.php:132
+#: ../wp-wolf-framework/classes/class-update-zip.php:132
+msgid "It seems that you are trying to upload the wrong file."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-update-zip.php:133
+#: ../wp-wolf-framework/classes/class-update-zip.php:133
+#, php-format
+msgid "You have to upload the %s file."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-update-zip.php:139
+#: ../wp-wolf-framework/classes/class-update-zip.php:139
+msgid "Theme Updated."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-update-zip.php:145
+#: ../wp-wolf-framework/classes/class-update-zip.php:145
+msgid "Please select a file to upload."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/classes/class-update-zip.php:173
+#: ../wp-wolf-framework/classes/class-update-zip.php:173
+msgid "An occur occured while trying to update the theme."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/includes/admin/admin-functions.php:19
+#: ../wp-wolf-framework/includes/admin/admin-functions.php:19
+msgid "Hide permanently"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/includes/admin/admin-functions.php:114
+#: ../pack/build/speaker/wp-wolf-framework/pages/update.php:26
+#: ../wp-wolf-framework/includes/admin/admin-functions.php:114
+#: ../wp-wolf-framework/pages/update.php:26
+#, php-format
+msgid "There is a new version of %s available."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/includes/admin/admin-functions.php:115
+#: ../pack/build/speaker/wp-wolf-framework/pages/update.php:27
+#: ../wp-wolf-framework/includes/admin/admin-functions.php:115
+#: ../wp-wolf-framework/pages/update.php:27
+#, php-format
+msgid "You have version %s installed."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/includes/admin/admin-functions.php:119
+#: ../pack/build/speaker/wp-wolf-framework/pages/update.php:28
+#: ../wp-wolf-framework/includes/admin/admin-functions.php:119
+#: ../wp-wolf-framework/pages/update.php:28
+#, php-format
+msgid "Update to version %s"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/pages/update.php:13
+#: ../wp-wolf-framework/pages/update.php:13
+msgid "Theme Updates"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/pages/update.php:32
+#: ../wp-wolf-framework/pages/update.php:32
+msgid "Update Download and Instructions"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/pages/update.php:34
+#: ../wp-wolf-framework/pages/update.php:34
+#, php-format
+msgid ""
+"<strong>Important :</strong> make a backup of the %1$s theme inside your "
+"WordPress installation folder %2$s before attempting to update."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/pages/update.php:35
+#: ../wp-wolf-framework/pages/update.php:35
+#, php-format
+msgid ""
+"To update the %s theme, login to your ThemeForest account, go to your "
+"downloads section and re-download the theme as you did when you purchased it."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/pages/update.php:38
+#: ../wp-wolf-framework/pages/update.php:38
+msgid ""
+"If you didn't make any changes to the theme files, you are free to overwrite "
+"them with the new files without risk of losing your theme settings."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/pages/update.php:39
+#: ../wp-wolf-framework/pages/update.php:39
+#, php-format
+msgid ""
+"If you want to edit the theme files it is recommended to create a <a href="
+"\"%s\" target=\"_blank\">child theme</a>."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/pages/update.php:47
+#: ../wp-wolf-framework/pages/update.php:47
+msgid "Update through FTP"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/pages/update.php:48
+#: ../wp-wolf-framework/pages/update.php:48
+#, php-format
+msgid ""
+"Extract the zip's contents, find the <strong>%1$s</strong> theme folder, and "
+"upload the new files using your FTP client to the %2$s folder. This will "
+"overwrite the old files."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/pages/update.php:56
+#: ../wp-wolf-framework/pages/update.php:56
+#, php-format
+msgid "The %1$s theme is currently up to date at version %2$s"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/pages/update.php:62
+#: ../wp-wolf-framework/pages/update.php:62
+msgid "Changelog"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/pages/update.php:75
+#: ../wp-wolf-framework/pages/update.php:75
+msgid "Details"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/pages/update.php:77
+#: ../wp-wolf-framework/pages/update.php:77
+msgid "Requires"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/pages/update.php:78
+#: ../wp-wolf-framework/pages/update.php:78
+msgid "Tested"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/pages/update.php:79
+#: ../wp-wolf-framework/pages/update.php:79
+msgid "Last update"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/pages/update.php:84
+#: ../wp-wolf-framework/pages/update.php:84
+msgid "Unable to load the changelog"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/wp-wolf-admin.php:90
+#: ../wp-wolf-framework/wp-wolf-admin.php:90
+msgid "Options"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/wp-wolf-admin.php:95
+#: ../pack/build/speaker/wp-wolf-framework/wp-wolf-admin.php:98
+#: ../pack/build/speaker/wp-wolf-framework/wp-wolf-admin.php:102
+#: ../wp-wolf-framework/wp-wolf-admin.php:95
+#: ../wp-wolf-framework/wp-wolf-admin.php:98
+#: ../wp-wolf-framework/wp-wolf-admin.php:102
+msgid "Updates"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/wp-wolf-admin.php:108
+#: ../wp-wolf-framework/wp-wolf-admin.php:108
+msgid "Helpdesk"
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/wp-wolf-admin.php:149
+#: ../wp-wolf-framework/wp-wolf-admin.php:149
+msgid ""
+"The <strong>cURL</strong> extension is not installed on your server. This "
+"extension is required to display theme update notifications."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/wp-wolf-admin.php:156
+#: ../wp-wolf-framework/wp-wolf-admin.php:156
+msgid ""
+"The <strong>GD library</strong> extension is not installed on your server. "
+"This extension is essential to Wordpress to be able to resize your images. "
+"Please contact your hosting service for more informations."
+msgstr ""
+
+#: ../pack/build/speaker/wp-wolf-framework/wp-wolf-admin.php:168
+#: ../wp-wolf-framework/wp-wolf-admin.php:168
+#, php-format
+msgid ""
+"It seems that <strong>the theme has been installed incorrectly</strong>. Go "
+"<a href=\"%s\" target=\"_blank\">here</a> to find instructions about theme "
+"installation."
+msgstr ""
+
+#: ../partials/share-post.php:42
+#, php-format
+msgid "Share by %s"
+msgstr ""
