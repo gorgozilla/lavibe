@@ -152,18 +152,38 @@ if ( ! function_exists( 'wolf_is_woocommerce' ) ) {
 	}
 }
 
-if ( ! function_exists( 'wolf_is_blog_index' ) ) {
-	/**
-	 * Check if we're on the blog index page
-	 *
-	 * @return bool
-	 */
-	function wolf_is_blog_index() {
+/**
+ * Check if the home page is set to default
+ *
+ * Returns true if not page for post and front page are set in the reading settings
+ *
+ * @return bool
+ */
+function wolf_is_home_as_blog() {
+	return ! get_option( 'page_for_posts' ) && ! get_option( 'page_on_front' ) && is_home();
+}
 
-		global $wp_query;
+/**
+ * Check if we're on the blog index page
+ *
+ * @return bool
+ */
+function wolf_is_blog_index() {
 
-		return $wp_query && isset( $wp_query->queried_object->ID ) && $wp_query->queried_object->ID == get_option( 'page_for_posts' );
-	}
+	global $wp_query;
+
+	return wolf_is_home_as_blog() || ( is_object( $wp_query ) && isset( $wp_query->queried_object ) && isset( $wp_query->queried_object->ID ) && $wp_query->queried_object->ID == get_option( 'page_for_posts' ) );
+}
+
+/**
+ * Check if we're on a blog page
+ *
+ * @return bool
+ */
+function wolf_is_blog() {
+
+	$is_blog = ( wolf_is_home_as_blog() || wolf_is_blog_index() || is_search() || is_archive() ) && ! wolf_is_woocommerce() && 'post' == get_post_type();
+	return ( true == $is_blog );
 }
 
 if ( ! function_exists( 'wolf_get_blog_url' ) ) {

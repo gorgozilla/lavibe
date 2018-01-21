@@ -102,7 +102,7 @@ if ( ! function_exists( 'wolf_body_classes' ) ) {
 		if ( wolf_is_one_paged() )
 			$classes[] = 'is-one-paged';
 
-		if ( is_page_template( 'page-templates/section.php' ) )
+		if ( is_page_template( 'page-templates/section.php' ) && is_page() )
 			$classes[] = 'section-page';
 
 		/* Page template clean classes */

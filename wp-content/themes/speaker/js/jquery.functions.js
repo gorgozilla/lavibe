@@ -360,7 +360,7 @@ WolfThemeUi = function( $ ) {
 
 					var url = $( this ).attr( 'src' );
 
-					if ( url.match( /(vimeo.com)/i ) ) {
+					if ( '' !== url && url.match( /(vimeo.com)/i ) ) {
 
 						if ( url.indexOf( '?' ) !== -1) {
 
