@@ -9,6 +9,10 @@ class WPCOM_JSON_API_List_Comments_Walker extends Walker {
 	);
 
 	public function start_el( &$output, $object, $depth = 0, $args = array(), $current_object_id = 0 ) {
+		if ( ! is_array( $output ) ) {
+			$output = array();
+		}
+
 		$output[] = $object->comment_ID;
 	}
 
@@ -191,9 +195,10 @@ class WPCOM_JSON_API_List_Comments_Endpoint extends WPCOM_JSON_API_Comment_Endpo
 		}
 
 		$query = array(
-			'order'  => $args['order'],
-			'type'   => 'any' === $args['type'] ? false : $args['type'],
-			'status' => $status,
+			'order'        => $args['order'],
+			'type'         => 'any' === $args['type'] ? false : $args['type'],
+			'status'       => $status,
+			'type__not_in' => array( 'review' ),
 		);
 
 		if ( isset( $args['page'] ) ) {

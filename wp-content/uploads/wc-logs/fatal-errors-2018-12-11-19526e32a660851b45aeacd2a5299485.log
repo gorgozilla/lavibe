@@ -1,0 +1,2 @@
+2018-12-11T21:57:18+00:00 CRITICAL require_once(): Failed opening required 'classes/class-wc-connect-label-reports.php' (include_path='.;C:\php\pear') in C:\wamp64\www\lavibe\wp-content\plugins\woocommerce-services\woocommerce-services.php on line 588
+

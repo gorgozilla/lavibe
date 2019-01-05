@@ -7,7 +7,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 if ( ! class_exists( 'WC_Connect_PayPal_EC' ) ) {
 
 	/**
-	 * Integrates with WooCommerce PayPal Express Checkout Payment Gateway,
+	 * Integrates with WooCommerce PayPal Checkout Payment Gateway,
 	 * modifying that plugin's behavior to facilitate authenticating requests
 	 * not by linking an account but via the WCS server through which we proxy.
 	 */
@@ -38,11 +38,16 @@ if ( ! class_exists( 'WC_Connect_PayPal_EC' ) ) {
 				return;
 			}
 
+			$ppec_plugin = wc_gateway_ppec();
+			if ( ! property_exists( $ppec_plugin, 'settings' ) || empty( $ppec_plugin->settings ) ) {
+				return;
+			}
+
 			$this->maybe_set_reroute_requests();
 
 			add_filter( 'woocommerce_paypal_express_checkout_settings', array( $this, 'adjust_form_fields' ) );
 			$this->initialize_settings();
-			$settings = wc_gateway_ppec()->settings;
+			$settings = $ppec_plugin->settings;
 
 			// Don't modify any PPEC plugin behavior if WCS request proxying is not enabled
 			if ( 'yes' !== $settings->reroute_requests ) {
@@ -128,7 +133,7 @@ if ( ! class_exists( 'WC_Connect_PayPal_EC' ) ) {
 						__( 'Link a PayPal account' ,'woocommerce-services' ),
 						sprintf(
 							wp_kses(
-								__( 'To issue refunds via PayPal Express Checkout, you will need to <a href="%s">link a PayPal account</a> with the email address that received this payment.', 'woocommerce-services' ),
+								__( 'To issue refunds via PayPal Checkout, you will need to <a href="%s">link a PayPal account</a> with the email address that received this payment.', 'woocommerce-services' ),
 								array(  'a' => array( 'href' => array() ) )
 							),
 							wc_gateway_ppec()->ips->get_signup_url( wc_gateway_ppec()->settings->environment )
@@ -179,13 +184,13 @@ if ( ! class_exists( 'WC_Connect_PayPal_EC' ) ) {
 					&& 'post' === $screen->base
 					&& 'ppec_paypal' === WC_Connect_Compatibility::instance()->get_payment_method( wc_get_order() )
 					)
-				|| ( // WooCommerce settings.
+				|| ( // WooCommerce » Settings » Payments.
 					'woocommerce_page_wc-settings' === $screen->base
 					&& isset( $_GET['tab'] ) && 'checkout' === $_GET['tab']
 					)
-				|| ( // WooCommerce payment gateway extension page
+				|| ( // WooCommerce » Extensions » Payments.
 					'woocommerce_page_wc-addons' === $screen->base
-					&& isset( $_GET['section'] ) && 'payment_gateways' === $_GET['section']
+					&& isset( $_GET['section'] ) && 'payment-gateways' === $_GET['section']
 					)
 			) {
 				wp_enqueue_style( 'wc_connect_banner' );

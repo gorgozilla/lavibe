@@ -1,13 +1,13 @@
 === WooCommerce Services ===
-Contributors: automattic, woothemes, allendav, kellychoffman, jkudish, jeffstieler, nabsul, robobot3000, danreylop, mikeyarce, shaunkuschel, orangesareorange, pauldechov, dappermountain
-Tags: canada-post, shipping, stamps, usps, woocommerce, taxes, payment, stripe
+Contributors: automattic, woothemes, allendav, kellychoffman, jkudish, jeffstieler, nabsul, robobot3000, danreylop, mikeyarce, shaunkuschel, orangesareorange, pauldechov, dappermountain, radogeorgiev
+Tags: shipping, stamps, usps, woocommerce, taxes, payment, stripe
 Requires at least: 4.6
-Tested up to: 4.9.2
-Stable tag: 1.11.0
+Tested up to: 5.0
+Stable tag: 1.18.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Hosted services for WooCommerce including automated tax calculation, live shipping rates, shipping label printing, and smoother payment setup.
+Hosted services for WooCommerce including automated tax calculation, shipping label printing, and smoother payment setup.
 
 == Description ==
 
@@ -17,10 +17,6 @@ With WooCommerce Services, critical services are hosted on Automattic’s best-i
 
 To use the features, simply install this plugin and activate the ones you want directly in your dashboard. As we add more services, you’ll see more features available directly in WooCommerce - making setup simpler.
 
-= Show live rates for USPS or Canada Post =
-Show your customers accurate shipping rates automatically for USPS, the largest delivery network in the US, or Canada Post.
-
-
 = Print shipping labels for USPS at a discounted rate =
 Give customers lower rates on their shipping. Create ready-to-print shipping labels for USPS directly in WooCommerce and take advantage of our special discount rate.
 
@@ -28,7 +24,7 @@ Give customers lower rates on their shipping. Create ready-to-print shipping lab
 We've got taxes for you - no need to enter tax rates manually.
 
 = Be ready to accept payments instantly =
-Have a Stripe account created on your behalf or accept PayPal Express Checkout payments without having to setup an account.
+Have a Stripe account created on your behalf or accept PayPal Checkout payments without having to setup an account.
 
 == Installation ==
 
@@ -38,7 +34,6 @@ This section describes how to install the plugin and get it working.
 1. Activate the plugin through the 'Plugins' screen in WordPress
 1. Install and activate WooCommerce if you haven't already done so
 1. Install, activate and connect Jetpack if you haven't already done so
-1. Add a USPS or Canada Post shipping method instance to any shipping zone
 1. Want to buy shipping labels? First, add your credit card to https://wordpress.com/me/purchases/billing and then print labels for orders right from the Edit Order page
 1. Enable automated taxes from WooCommerce > Settings > Tax (make sure "enable taxes" is checked in General settings first)
 
@@ -46,23 +41,18 @@ This section describes how to install the plugin and get it working.
 
 = What services are included? =
 
-* Real-time shipping rates from USPS or Canada Post
-* USPS label purchase/printing (domestic USA only)
+* USPS label purchase/printing
 * Automated tax calculation
 * Stripe account provisioning (through WooCommerce setup wizard)
-* PayPal Express Checkout payment authorization
-
-= Are Real-Time Rates in Checkout Free? =
-
-Yes, real-time rates in checkout are totally free.
+* PayPal Checkout payment authorization
 
 = Can I buy and print shipping labels for US domestic and international packages? =
 
-You can buy and print USPS shipping labels for domestic packages only. International shipping is not yet supported.
+Yes! You can buy and print USPS shipping labels for domestic and international destinations.
 
 = This works with WooCommerce, right? =
 
-Yep! WooCommerce version 2.6 or newer, please.
+Yep! WooCommerce version 3.0 or newer, please.
 
 = Why is a Jetpack Connection and WordPress.com account required? =
 
@@ -76,19 +66,123 @@ Absolutely! You can read our Terms of Service [here](https://en.wordpress.com/to
 
 The source code is freely available [in GitHub](https://github.com/Automattic/woocommerce-services).
 
+= Can I show shipping rates at checkout? =
+
+As of the WooCommerce 3.5 release, WooCommerce Services no longer provides shipping rates for new stores. If you're already using shipping rates in WooCommerce Services, they will continue to work.
+
 == Screenshots ==
 
 1. Buying a USPS shipping label for an order
-2. Adding a shipping method
-3. Setting up real-time USPS rates
-4. Real-time rate display in checkout
-5. Setting up custom packages
-6. Selecting your preferred payment method
-7. Enabling automated taxes
-8. Creating a Stripe account from the setup wizard
-9. Checking on the health of WooCommerce Services
+2. Setting up custom packages
+3. Selecting your preferred payment method
+4. Enabling automated taxes
+5. Creating a Stripe account from the setup wizard
+6. Checking on the health of WooCommerce Services
+7. Checking and exporting the label purchase reports
 
 == Changelog ==
+
+= 1.18.0 =
+
+- Add compatibility with WordPress 5.0
+- Add compatibility with the WordPress.com eCommerce plan
+- Add packing logs to the front-end (with debug enabled) and back-end (order detail screens)
+- When purchasing a shipping label, allow addresses to be entered without verification
+- Make the shipping label purchase process more robust, allowing retries when the label image failed to download
+- UI improvements to the shipping label address form
+- Allow connecting a Stripe account directly from the Stripe settings page
+- Updated behavior of the shipping phone field in order to prevent conflicts with other plugins
+
+= 1.17.1 =
+* Fix the issue with disappearing shipping method settings when Stripe extension is enabled
+
+= 1.17.0 =
+* Restrict shipping methods to certain shipping classes
+* Improve Stripe onboarding and show connected account in settings
+* Fix label printing bug in iOS 12
+* Make the HS Tariff Code optional for international shipments
+* Hide ineligible package types for international shipments
+
+= 1.16.1 =
+* Clear shipping rates when changing package weight or signature requirement so they can be recalculated
+* Correctly purchase a "First Class Envelope" or a "First Class Package Service" label depending if the package is an envelope or not
+
+= 1.16.0 =
+* Add international destinations support to USPS label printing
+* Fix bug with Shipping Label pointer dismissal when creating a label for the first time
+* Fix z-index issue with purchased shipping label ellipsis menu components
+* Prevent checkout with invalid ZIP code when using Automated Taxes
+* Fix tax calculation with multiple line items sharing product tax class
+* Display native tax tables for custom rates
+* Add street-level accuracy for tax calculation
+
+= 1.15.1 =
+* Fix the "Save changes" button staying disabled after failing to save the shipping method settings
+* Remove emojis from the shipping rates messages, they were causing problems at checkout on sites with a non-default MySQL charset configuration
+
+= 1.15.0 =
+* Several bugfixes and improvements for Automated Taxes
+* Immediately save the shipping method configuration when it's added to a shipping zone
+* Allow to bypass the address verification when purchasing a shipping label
+* Show which WordPress.com user can add a credit card for shipping label purchases
+* Tweak the list of purchased labels for an order so it's less cluttered
+
+= 1.14.1 =
+* Fix error when adding shipping method price adjustments
+
+= 1.14.0 =
+* GDPR - Added WCS section to the privacy policy guide
+* GDPR - Support for personal data export functionality
+* GDPR - Support for personal data erasure functionality
+* Minor changes to the settings page UI
+* Fix the PHP warning on the Status page when logs are empty
+* Fix log file retrieval on Status page to work with new WC 3.4 format that includes the date
+* Add error message on manual service data refresh failure
+
+= 1.13.3 =
+* Fix broken admin after product featured in 'missing weight' notice is deleted
+
+= 1.13.2 =
+* Fix PHP Warning when the server cannot be reached for shipping rates or products are missing dimensions
+
+= 1.13.1 =
+* Fix PHP Warning for individually packed shipping rates
+
+= 1.13.0 =
+* Show customer selected shipping rate when purchasing a shipping label
+* Add shipping labels to Reports
+* Add USPS signature requirement support to label purchase
+* Add link to view receipt for Shipping Labels
+* Fix bug showing incorrect shipping label rates when changing packages
+* Fix styling for purchasing shipping labels on mobile devices
+* Prevent incompatible settings for Automated Taxes
+* Fix duplicate "packages" section in Shipping Settings (Advanced Shipping Packages extension compatibility)
+* Add "copy to clipboard" button to debug logs on Status page
+* Improved error messaging
+* Fix unnecessary shipping rates requests made in the Dashboard
+* Fix PHP Warning when saving Tax settings
+* Add caching to Shipping Rate requests
+
+= 1.12.3 =
+* Fixed PHP Fatal when PayPal Express Checkout has not fully initialized
+
+= 1.12.2 =
+* Fix some REST API calls being erroneously cached by certain hosting providers
+
+= 1.12.1 =
+* Fix missing file in 1.12.0 plugin release
+
+= 1.12.0 =
+* Add email receipts for purchased shipping labels
+* Clean up Stripe account keys when deauthorized
+* Fix bug in database migration script for older plugin versions
+* Add "back to order" link when adding a credit card from order details
+* Add frontend debugging messages for shipping rates
+* Separate troubleshooting logs by feature (taxes, shipping, etc)
+* Avoid making unnecessary automated tax requests
+* Fix PHP Fatal bug in tax request error handling
+* Integrate with WooCommerce Shipment Tracking extension
+* Add Conditional Shipping and Payments compatibility
 
 = 1.11.0 =
 * Fix bug with TOS acceptance on WordPress Multisite

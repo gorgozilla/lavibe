@@ -972,6 +972,7 @@ if ( ! class_exists( 'Wolf_Tour_Dates' ) ) {
 						$place = $city . ', ' . $state . ' ( ' . $country . ' )';
 					}
 
+					$show_name     = get_the_title($post_id);
 					$venue         = get_post_meta( $post_id, '_wolf_show_venue', true );
 					$ticket        = get_post_meta( $post_id, '_wolf_show_ticket', true );
 					$cancelled     = get_post_meta( $post_id, '_wolf_show_cancel', true );
@@ -1022,7 +1023,7 @@ if ( ! class_exists( 'Wolf_Tour_Dates' ) ) {
 					?>
 					<tr class="wolf-single-date <?php echo sanitize_html_class( $custom_class );  ?>">
 						<td class="wolf-show-date"><?php echo  wp_kses_post( $date ); ?></td>
-
+						<td><?php echo sanitize_text_field( $show_name ); ?></td>
 						<?php if ( $artist ) : ?>
 						<td><?php echo sanitize_text_field( $artist ); ?></td>
 						<?php endif; ?>

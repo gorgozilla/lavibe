@@ -21,7 +21,7 @@ class WC_REST_Connect_Stripe_Account_Controller extends WC_REST_Connect_Base_Con
 		$response = $this->stripe->get_account_details();
 
 		if ( is_wp_error( $response ) ) {
-			$this->logger->debug( $response, __CLASS__ );
+			$this->logger->log( $response, __CLASS__ );
 
 			return new WP_Error(
 				$response->get_error_code(),
@@ -32,19 +32,7 @@ class WC_REST_Connect_Stripe_Account_Controller extends WC_REST_Connect_Base_Con
 			);
 		}
 
-		return array(
-			'success'         => true,
-			'account_id'      => $response->accountId,
-			'display_name'    => $response->displayName,
-			'email'           => $response->email,
-			'business_logo'   => $response->businessLogo,
-			'legal_entity'    => array(
-				'first_name'      => $response->legalEntity->firstName,
-				'last_name'       => $response->legalEntity->lastName
-			),
-			'payouts_enabled' => $response->payoutsEnabled
-		);
-
+		return array_merge( array( 'success' => true ), $response );
 	}
 
 	public function post( $request ) {
@@ -53,7 +41,7 @@ class WC_REST_Connect_Stripe_Account_Controller extends WC_REST_Connect_Base_Con
 		$response = $this->stripe->create_account( $data['email'], $data['country'] );
 
 		if ( is_wp_error( $response ) ) {
-			$this->logger->debug( $response, __CLASS__ );
+			$this->logger->log( $response, __CLASS__ );
 
 			return new WP_Error(
 				$response->get_error_code(),
